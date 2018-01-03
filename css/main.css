@@ -29,11 +29,20 @@ h3 {
 	background-color: #ff9999;
 }
 
-/*#heart {
-	text-align: center;
-	display: block;
-	margin-top: 60px;
-}*/
+#thirty-days {
+	background: linear-gradient(rgba(255, 153, 153, 0.9), rgba(255, 153, 153, 0.9)), url("../img/code.png");
+	
+	width: 100%;
+	background-size: cover;
+
+}
+
+#ux-persona {
+	background: linear-gradient(rgba(255, 153, 153, 0.9), rgba(255, 153, 153, 0.9)), url("../img/ux-persona.png");
+
+	width: 100%;
+	background-size: cover;
+}
 
 i.glyphicon.glyphicon-ice-lolly-tasted {
 	font-size: 25px;
@@ -44,21 +53,6 @@ i.glyphicon.glyphicon-ice-lolly-tasted {
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 70px;
-}
-
-#mini-img {
-	height: 55px;
-	width: 55px;
-	background-color: transparent;
-	margin: 0 auto;
-	display: block;
-	margin-top: 70px;
-}
-
-span {
-	font-family: 'VT323', monospace;
-	font-size: 33px;
-	letter-spacing: 2px;
 }
 
 i.glyphicon.glyphicon-heart {
@@ -90,53 +84,32 @@ li {
 	display: inline-block;
 	margin-left: 50px;
 	margin-right: 50px;
-	color: white;
+	color: #C0F9F0;
 }
 
-button.btn.btn-success {
-	background-color: transparent;
-	border: red 3px solid;
-	border-radius: 5px;
-	color: red;
-	margin-right: 18px;
-}
 
-.checkbox label, .radio label {
-	font-weight: 500;
-	margin-bottom: 25px;
-	margin-top: 25px;
-	color: black;
-}
-
-.form-control {
-	border: red solid 1px;
-}
-#party{
-	font-size: 100px;
-	margin-top: 50px;
-	display: block;
-	text-align: center;
-}
-
-#small-h1 {
-	font-size: 100px;
-}
 
 a {
 	text-align: center;
 	margin: 0 auto;
 	display: block;
 	font-size: 18px;
+	color: #C0F9F0;
+	margin-top: 40px;
 
 }
 
+a:hover {
+	color: #C0F9F0;
+}
+
 a:visited {
-	color: red;
+	color: white;
 }
 
 li:hover {
 	cursor: pointer; 
-	color: #C0F9F0;
+	color: white;
 
 }
 
@@ -145,30 +118,8 @@ li:hover {
     height: 50px;
     display: inline;
     width: 100%;
-    z-index: 9;
-
-    padding: 20px 0 0 0;
-}
-#footer {
-	position: fixed;
-    height: 50px;
-    display: inline;
-    width: 100%;
-    z-index: 9;
-    color: #f2f2f2;
-    padding: 20px 0 0 0;
-    background-color: blue;
-
-}
-
-
-img {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed; 
-	background-size: cover;
-	background-color: black; 
-	width: 100%;
+    z-index: 10;
+	padding: 20px 0 0 0;
 }
 
 #arrow-wrapper {
