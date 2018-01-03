@@ -29,19 +29,34 @@ h3 {
 	background-color: #ff9999;
 }
 
+.green-text {
+	color: #C0F9F0;
+}
+
 #thirty-days {
-	background: linear-gradient(rgba(255, 153, 153, 0.9), rgba(255, 153, 153, 0.9)), url("../img/code.png");
-	
+	/*background: linear-gradient(rgba(255, 153, 153, 0.9), rgba(255, 153, 153, 0.9)), url("../img/code.png");*/
+	background-color: #C0F9F0;
 	width: 100%;
 	background-size: cover;
 
 }
 
-#ux-persona {
-	background: linear-gradient(rgba(255, 153, 153, 0.9), rgba(255, 153, 153, 0.9)), url("../img/ux-persona.png");
+#green-link {
+	color: #C0F9F0;
+}
 
+#green-link:visited {
+	color: #C0F9F0;
+}
+#ux-persona {
+	/*background: linear-gradient(rgba(255, 153, 153, 0.9), rgba(255, 153, 153, 0.9)), url("../img/ux-persona.png");*/
 	width: 100%;
 	background-size: cover;
+	background-color: #ff9999;
+}
+
+.pink-text {
+	color: #ff9999;
 }
 
 i.glyphicon.glyphicon-ice-lolly-tasted {
@@ -104,7 +119,7 @@ a:hover {
 }
 
 a:visited {
-	color: white;
+	color: #ff9999;
 }
 
 li:hover {
