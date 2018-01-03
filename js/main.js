@@ -29,3 +29,11 @@ $(document).ready(function (){
         }, 1000);
     });
 });
+
+$("#thirty-days").on("mouseenter", function(){
+  $("li").addClass("list-switch");
+});
+
+$("#thirty-days").on("mouseleave", function(){
+  $("li").removeClass("list-switch");
+});
