@@ -1,13 +1,6 @@
 :root {
-	--primary-color: black;
-	--secondary-color: white;
-	--tertiary-color: #452064;
-	--accent-color: #be26fb;
-	--middle-font: 50px;
-	--small-font: 15px;
 	--header-font: 'Pacifico', cursive;
 	--paragraph-font: 'Barlow Condensed', sans-serif;
-
 }
 
 h1 {
@@ -22,31 +15,34 @@ h1 {
 h3 {
 	line-height: 50px;
 	color: black;
-
 }
 
-#keycode-project {
-	background-color: #C0F9F0;
+#header  {
+	position: fixed;
+    height: 50px;
+    display: inline;
+    width: 100%;
+    z-index: 10;
+	padding: 15px 0 0 0;
+	background-color: #f6c0f9;
 }
 
 #hero-section {
 	background-color: #ff9999;
 }
 
-.green-text {
-	color: #C0F9F0;
-}
-
 #thirty-days {
-	/*background: linear-gradient(rgba(255, 153, 153, 0.9), rgba(255, 153, 153, 0.9)), url("../img/code.png");*/
 	background-color: #C0F9F0;
 	width: 100%;
 	background-size: cover;
-
 }
 
-.list-switch {
-	color: #ff9999;
+#keycode-project {
+	background-color: #C0F9F0;
+}
+
+.green-text {
+	color: #C0F9F0;
 }
 
 #green-link {
@@ -56,14 +52,19 @@ h3 {
 #green-link:visited {
 	color: #C0F9F0;
 }
+
+.pink-text {
+	color: #ff9999;
+}
+
+.list-switch {
+	color: #ff9999;
+}
+
 #ux-persona {
 	width: 100%;
 	background-size: cover;
 	background-color: #ff9999;
-}
-
-.pink-text {
-	color: #ff9999;
 }
 
 #no-margin {
@@ -76,6 +77,7 @@ i.glyphicon.glyphicon-ice-lolly-tasted {
 	cursor: pointer;
 	margin-left: 0;
 }
+
 .hero-sub-text {
 	color: red;
 	text-transform: uppercase;
@@ -89,13 +91,13 @@ i.glyphicon.glyphicon-heart {
 	transform: rotate(10deg);
 }
 
-
 #bottom-stick {
 	position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
 }
+
 h2 {
 	color: white;
 	margin-top: 0;
@@ -115,8 +117,6 @@ li {
 	color: white;
 }
 
-
-
 a {
 	text-align: center;
 	margin: 0 auto;
@@ -124,7 +124,6 @@ a {
 	font-size: 18px;
 	color: #C0F9F0;
 	margin-top: 40px;
-
 }
 
 a:hover {
@@ -137,17 +136,6 @@ a:visited {
 
 li:hover {
 	cursor: pointer; 
-
-}
-
-#header  {
-	position: fixed;
-    height: 50px;
-    display: inline;
-    width: 100%;
-    z-index: 10;
-	padding: 15px 0 0 0;
-	background-color: #f6c0f9;
 }
 
 #arrow-wrapper {
@@ -158,7 +146,6 @@ li:hover {
   margin-top: 30px;
   animation: pulsate 2s ease-out;
   animation-iteration-count: infinite;
-
 }
 
 .arrow {
