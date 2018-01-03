@@ -25,6 +25,10 @@ h3 {
 
 }
 
+#keycode-project {
+	background-color: #C0F9F0;
+}
+
 #hero-section {
 	background-color: #ff9999;
 }
@@ -53,7 +57,6 @@ h3 {
 	color: #C0F9F0;
 }
 #ux-persona {
-	/*background: linear-gradient(rgba(255, 153, 153, 0.9), rgba(255, 153, 153, 0.9)), url("../img/ux-persona.png");*/
 	width: 100%;
 	background-size: cover;
 	background-color: #ff9999;
@@ -63,9 +66,15 @@ h3 {
 	color: #ff9999;
 }
 
+#no-margin {
+	margin: 0;
+}
+
 i.glyphicon.glyphicon-ice-lolly-tasted {
 	font-size: 25px;
 	color: #C0F9F0;
+	cursor: pointer;
+	margin-left: 0;
 }
 .hero-sub-text {
 	color: red;
@@ -82,7 +91,7 @@ i.glyphicon.glyphicon-heart {
 
 
 #bottom-stick {
-	  position: absolute;
+	position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
@@ -103,7 +112,7 @@ li {
 	display: inline-block;
 	margin-left: 50px;
 	margin-right: 50px;
-	color: #C0F9F0;
+	color: white;
 }
 
 
@@ -128,7 +137,6 @@ a:visited {
 
 li:hover {
 	cursor: pointer; 
-	color: white;
 
 }
 
@@ -138,7 +146,8 @@ li:hover {
     display: inline;
     width: 100%;
     z-index: 10;
-	padding: 20px 0 0 0;
+	padding: 15px 0 0 0;
+	background-color: #f6c0f9;
 }
 
 #arrow-wrapper {
@@ -183,4 +192,10 @@ li:hover {
     transform: scale(1, 1);
     opacity: 0;
   }
+}
+
+@media only screen and (max-width : 665px) {
+	#header {
+		visibility: hidden;
+	}
 }
